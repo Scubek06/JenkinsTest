@@ -1,6 +1,7 @@
 
 public class Hello {
 	public static void main(String[] args){
+		System.out.println("Hello Jenkins");
 		String name = System.getenv("USERNAME_VAR");
 		if (name != null){
 			System.out.println("Hello, " + name);
